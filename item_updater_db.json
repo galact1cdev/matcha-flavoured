@@ -48,9 +48,9 @@
 			"matcha/villager_trade/fletcher",
 			"trade_with_levels"
 		],
-		"fisherman": [
-			"matcha/villager_trade/fisherman",
-			"trade_with_levels"
+		"fisherman_1": [
+			"matcha/villager_trade/fisherman/1",
+			"trade_no_levels"
 		],
 		"farmer": [
 			"matcha/villager_trade/farmer",
@@ -99,6 +99,10 @@
 		"fish": [
 			"minecraft/loot_table/gameplay/fishing/fish",
 			"loot_table"
+		],
+		"blessing": [
+			"matcha/recipe/blessing",
+			"recipe"
 		]
 	},
 	"files": {
@@ -4427,11 +4431,11 @@
 				],
 				[
 					"food",
-					"recipe"
+					"matcha"
 				],
 				[
 					"food",
-					"matcha"
+					"recipe"
 				]
 			],
 			"names": [
@@ -11083,6 +11087,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_axe",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_axe",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11091,7 +11099,7 @@
 			"id": "minecraft:stone_axe",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -11211,6 +11219,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_boots",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_boots",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11219,7 +11231,7 @@
 			"id": "minecraft:copper_boots",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "boots",
@@ -11311,6 +11323,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_chestplate",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_chestplate",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11319,7 +11335,7 @@
 			"id": "minecraft:copper_chestplate",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "chestplate",
@@ -11411,6 +11427,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_dolabra",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_dolabra",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11419,7 +11439,7 @@
 			"id": "minecraft:stone_axe",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -11545,6 +11565,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_elytra",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_elytra",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11553,7 +11577,7 @@
 			"id": "minecraft:elytra",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -11651,6 +11675,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_helmet",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_helmet",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11659,7 +11687,7 @@
 			"id": "minecraft:copper_helmet",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "helmet",
@@ -11751,6 +11779,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_hoe",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_hoe",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11759,7 +11791,7 @@
 			"id": "minecraft:stone_hoe",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -11866,6 +11898,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_leggings",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_leggings",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11874,7 +11910,7 @@
 			"id": "minecraft:copper_leggings",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "leggings",
@@ -11966,6 +12002,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_mattock",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_mattock",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -11974,7 +12014,7 @@
 			"id": "minecraft:stone_hoe",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -12100,6 +12140,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_pickaxe",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_pickaxe",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -12108,7 +12152,7 @@
 			"id": "minecraft:stone_pickaxe",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -12234,6 +12278,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_shovel",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_shovel",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -12242,7 +12290,7 @@
 			"id": "minecraft:stone_shovel",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "generic",
@@ -12363,6 +12411,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_spear",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_spear",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -12371,7 +12423,7 @@
 			"id": "minecraft:stone_spear",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "enchanted",
@@ -12478,6 +12530,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_sword",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_sword",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -12486,7 +12542,7 @@
 			"id": "minecraft:stone_sword",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "enchanted",
@@ -15667,7 +15723,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_shield"
-				}
+				},
+				"Warding Shield"
 			],
 			"models": [],
 			"id": "minecraft:shield",
@@ -15760,7 +15817,8 @@
 			"names": [
 				{
 					"translate": "item.kleispack.warding_sword"
-				}
+				},
+				"Warding Sword"
 			],
 			"models": [
 				"matcha:warding_sword"
@@ -21240,7 +21298,7 @@
 			"models": [],
 			"id": "minecraft:rabbit_hide",
 			"use": [
-				true,
+				false,
 				false,
 				false
 			],
@@ -23302,7 +23360,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:amnestic_wrapped"
+				"matcha:amnestic_wrapped",
+				"minecraft:amnestic_wrapped"
 			],
 			"id": "minecraft:chicken_spawn_egg",
 			"use": [
@@ -29110,7 +29169,8 @@
 				}
 			],
 			"models": [
-				"matcha:warding_stone"
+				"matcha:warding_stone",
+				"minecraft:warding_stone"
 			],
 			"id": "minecraft:chicken_spawn_egg",
 			"use": [
@@ -30109,6 +30169,10 @@
 				{
 					"translate": "item.kleispack.hepatizon_laurel",
 					"color": "#ac7b5c"
+				},
+				{
+					"translate": "item.kleispack.bronze_laurel",
+					"color": "#ac7b5c"
 				}
 			],
 			"models": [
@@ -30117,7 +30181,7 @@
 			"id": "minecraft:netherite_helmet",
 			"use": [
 				false,
-				true,
+				false,
 				true
 			],
 			"type": "helmet",
@@ -32769,8 +32833,7 @@
 			"version": 1,
 			"folder": [
 				[
-					"fisherman",
-					"1"
+					"fisherman_1"
 				]
 			],
 			"names": [
@@ -32808,1132 +32871,1703 @@
 			"ignore": null
 		},
 		"alaska_blackfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.alaska_blackfish"
+				}
+			],
+			"models": [
+				"matcha:alaska_blackfish"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.alaska_blackfish"
+				},
+				"minecraft:item_model": "matcha:alaska_blackfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"anchovy": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.anchovy"
+				}
+			],
+			"models": [
+				"matcha:anchovy"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.anchovy"
+				},
+				"minecraft:item_model": "matcha:anchovy",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"bluegill": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bluegill"
+				}
+			],
+			"models": [
+				"matcha:bluegill"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bluegill"
+				},
+				"minecraft:item_model": "matcha:bluegill",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"bujurqui": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bujurqui"
+				}
+			],
+			"models": [
+				"matcha:bujurqui"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bujurqui"
+				},
+				"minecraft:item_model": "matcha:bujurqui",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"cod": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:cod",
 			"use": [
 				false,
 				false,
 				false
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"crappie": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.crappie"
+				}
+			],
+			"models": [
+				"matcha:crappie"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.crappie"
+				},
+				"minecraft:item_model": "matcha:crappie",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"freshwater_pufferfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.freshwater_pufferfish"
+				}
+			],
+			"models": [
+				"matcha:freshwater_pufferfish"
+			],
+			"id": "minecraft:pufferfish",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.freshwater_pufferfish"
+				},
+				"minecraft:item_model": "matcha:freshwater_pufferfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"guppy": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.guppy"
+				}
+			],
+			"models": [
+				"matcha:guppy"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.guppy"
+				},
+				"minecraft:item_model": "matcha:guppy",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"humpback_whitefish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.humpback_whitefish"
+				}
+			],
+			"models": [
+				"matcha:humpback_whitefish"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.humpback_whitefish"
+				},
+				"minecraft:item_model": "matcha:humpback_whitefish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"mediterranean_killifish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.mediterranean_killifish"
+				}
+			],
+			"models": [
+				"matcha:mediterranean_killifish"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.mediterranean_killifish"
+				},
+				"minecraft:item_model": "matcha:mediterranean_killifish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"pufferfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:pufferfish",
 			"use": [
 				false,
 				false,
 				false
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"rainbow_wrasse": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.rainbow_wrasse"
+				}
+			],
+			"models": [
+				"matcha:rainbow_wrasse"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.rainbow_wrasse"
+				},
+				"minecraft:item_model": "matcha:rainbow_wrasse",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"salmon": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:salmon",
 			"use": [
 				false,
 				false,
 				false
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"shad": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.shad"
+				}
+			],
+			"models": [
+				"matcha:shad"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.shad"
+				},
+				"minecraft:item_model": "matcha:shad",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"striped_perch": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.striped_perch"
+				}
+			],
+			"models": [
+				"matcha:striped_perch"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.striped_perch"
+				},
+				"minecraft:item_model": "matcha:striped_perch",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"tropical_fish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"2"
-				],
 				[
 					"fish"
 				]
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:emerald",
+			"id": "minecraft:tropical_fish",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.1",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"black_seabass": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.black_seabass"
+				}
+			],
+			"models": [
+				"matcha:black_seabass"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.black_seabass"
+				},
+				"minecraft:item_model": "matcha:black_seabass",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"carp": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.carp"
+				}
+			],
+			"models": [
+				"matcha:carp"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.carp"
+				},
+				"minecraft:item_model": "matcha:carp",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"flying_fish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.flying_fish"
+				}
+			],
+			"models": [
+				"matcha:flying_fish"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.flying_fish"
+				},
+				"minecraft:item_model": "matcha:flying_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"gurnard": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.gurnard"
+				}
+			],
+			"models": [
+				"matcha:gurnard"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.gurnard"
+				},
+				"minecraft:item_model": "matcha:gurnard",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"herring": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.herring"
+				}
+			],
+			"models": [
+				"matcha:herring"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.herring"
+				},
+				"minecraft:item_model": "matcha:herring",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"lamprey": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.lamprey"
+				}
+			],
+			"models": [
+				"matcha:lamprey"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.lamprey"
+				},
+				"minecraft:item_model": "matcha:lamprey",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"mahi_mahi": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.mahi_mahi"
+				}
+			],
+			"models": [
+				"matcha:mahi_mahi"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.mahi_mahi"
+				},
+				"minecraft:item_model": "matcha:mahi_mahi",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"piranha": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.piranha"
+				}
+			],
+			"models": [
+				"matcha:piranha"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.piranha"
+				},
+				"minecraft:item_model": "matcha:piranha",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"spoonhead_sculpin": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.spoonhead_sculpin"
+				}
+			],
+			"models": [
+				"matcha:spoonhead_sculpin"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.spoonhead_sculpin"
+				},
+				"minecraft:item_model": "matcha:spoonhead_sculpin",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"walleye": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"3"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.walleye"
+				}
+			],
+			"models": [
+				"matcha:walleye"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.walleye"
+				},
+				"minecraft:item_model": "matcha:walleye",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.2",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"armoured_catfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.armoured_catfish"
+				}
+			],
+			"models": [
+				"matcha:armoured_catfish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.armoured_catfish"
+				},
+				"minecraft:item_model": "matcha:armoured_catfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"catfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.catfish"
+				}
+			],
+			"models": [
+				"matcha:catfish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.catfish"
+				},
+				"minecraft:item_model": "matcha:catfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"flounder": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.flounder"
+				}
+			],
+			"models": [
+				"matcha:flounder"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.flounder"
+				},
+				"minecraft:item_model": "matcha:flounder",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"gar": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.gar"
+				}
+			],
+			"models": [
+				"matcha:gar"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.gar"
+				},
+				"minecraft:item_model": "matcha:gar",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"monkfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.monkfish"
+				}
+			],
+			"models": [
+				"matcha:monkfish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.monkfish"
+				},
+				"minecraft:item_model": "matcha:monkfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"northern_pike": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.northern_pike"
+				}
+			],
+			"models": [
+				"matcha:northern_pike"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.northern_pike"
+				},
+				"minecraft:item_model": "matcha:northern_pike",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"painted_moray": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.painted_moray"
+				}
+			],
+			"models": [
+				"matcha:painted_moray"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.painted_moray"
+				},
+				"minecraft:item_model": "matcha:painted_moray",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"sturgeon": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.sturgeon"
+				}
+			],
+			"models": [
+				"matcha:sturgeon"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.sturgeon"
+				},
+				"minecraft:item_model": "matcha:sturgeon",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"tunisian_barb": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.tunisian_barb"
+				}
+			],
+			"models": [
+				"matcha:tunisian_barb"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.tunisian_barb"
+				},
+				"minecraft:item_model": "matcha:tunisian_barb",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"wolffish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"4"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.wolffish"
+				}
+			],
+			"models": [
+				"matcha:wolffish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.wolffish"
+				},
+				"minecraft:item_model": "matcha:wolffish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"arapaima": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.arapaima"
+				}
+			],
+			"models": [
+				"matcha:arapaima"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.arapaima"
+				},
+				"minecraft:item_model": "matcha:arapaima",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"bass": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.bass"
+				}
+			],
+			"models": [
+				"matcha:bass"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.bass"
+				},
+				"minecraft:item_model": "matcha:bass",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"echo_fish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.echo_fish"
+				}
+			],
+			"models": [
+				"matcha:echo_fish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.echo_fish"
+				},
+				"minecraft:item_model": "matcha:echo_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"european_eel": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.european_eel"
+				}
+			],
+			"models": [
+				"matcha:european_eel"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.european_eel"
+				},
+				"minecraft:item_model": "matcha:european_eel",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"muskellunge": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.muskellunge"
+				}
+			],
+			"models": [
+				"matcha:muskellunge"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.muskellunge"
+				},
+				"minecraft:item_model": "matcha:muskellunge",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"oarfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.oarfish"
+				}
+			],
+			"models": [
+				"matcha:oarfish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.oarfish"
+				},
+				"minecraft:item_model": "matcha:oarfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"opah": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.opah"
+				}
+			],
+			"models": [
+				"matcha:opah"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.opah"
+				},
+				"minecraft:item_model": "matcha:opah",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"pale_fish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.pale_fish"
+				}
+			],
+			"models": [
+				"matcha:pale_fish"
+			],
+			"id": "minecraft:cod",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.pale_fish"
+				},
+				"minecraft:item_model": "matcha:pale_fish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.3",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"siberian_sturgeon": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.siberian_sturgeon"
+				}
+			],
+			"models": [
+				"matcha:siberian_sturgeon"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.siberian_sturgeon"
+				},
+				"minecraft:item_model": "matcha:siberian_sturgeon",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"skate": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.skate"
+				}
+			],
+			"models": [
+				"matcha:skate"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.skate"
+				},
+				"minecraft:item_model": "matcha:skate",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"swordfish": {
-			"version": null,
+			"version": 1,
 			"folder": [
-				[
-					"fisherman",
-					"5"
-				],
 				[
 					"fish"
 				]
 			],
-			"names": [],
-			"models": [],
-			"id": "minecraft:emerald",
+			"names": [
+				{
+					"translate": "item.kleispack.fish.swordfish"
+				}
+			],
+			"models": [
+				"matcha:swordfish"
+			],
+			"id": "minecraft:salmon",
 			"use": [
 				false,
-				false,
-				false
+				true,
+				true
 			],
 			"type": "generic",
-			"processed": false,
-			"components": {},
-			"ignore": true
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.swordfish"
+				},
+				"minecraft:item_model": "matcha:swordfish",
+				"minecraft:lore": [
+					{
+						"translate": "adv.kleispack.fishing.rarity.4",
+						"italic": false
+					}
+				]
+			},
+			"ignore": null
 		},
 		"bonemeal": {
 			"version": null,
@@ -35276,7 +35910,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:abbey_map"
+				"matcha:abbey_map",
+				"minecraft:abbey_map"
 			],
 			"id": "minecraft:map",
 			"use": [
@@ -35304,7 +35939,8 @@
 			],
 			"names": [],
 			"models": [
-				"matcha:abbey_map"
+				"matcha:abbey_map",
+				"minecraft:abbey_map"
 			],
 			"id": "minecraft:map",
 			"use": [
@@ -38557,6 +39193,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -38681,7 +39320,1000 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"bane_of_arthopods": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_arachnae"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:bane_of_arthropods": 5
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.arachnae",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_arachnae"
+			},
+			"ignore": null
+		},
+		"channeling_smite": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_god_king"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:smite": 4,
+					"minecraft:channeling": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.god_king",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_god_king"
+			},
+			"ignore": null
+		},
+		"density_knockback_punch": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_talos"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:density": 2,
+					"minecraft:knockback": 2,
+					"minecraft:punch": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.talos",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_talos"
+			},
+			"ignore": null
+		},
+		"depth_strider_riptide_aqua_affinity_respiration": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_yamm"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:depth_strider": 2,
+					"minecraft:riptide": 1,
+					"minecraft:aqua_affinity": 1,
+					"minecraft:respiration": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.yamm",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_yamm"
+			},
+			"ignore": null
+		},
+		"efficiency_unbreaking": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_daedalus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:efficiency": 3,
+					"minecraft:unbreaking": 3
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.daedalus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_daedalus"
+			},
+			"ignore": null
+		},
+		"feather_falling": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_icarus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:feather_falling": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.icarus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_icarus"
+			},
+			"ignore": null
+		},
+		"flame_fire_aspect_fire_protection": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_yama"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:flame": 1,
+					"minecraft:fire_aspect": 1,
+					"minecraft:fire_protection": 3
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.yama",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_yama"
+			},
+			"ignore": null
+		},
+		"frost_walker_frost_protection": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_demeter"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:frost_walker": 2,
+					"matcha:freezing_protection": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.demeter",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_demeter"
+			},
+			"ignore": null
+		},
+		"hell_bound_book": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_stack_size": 64,
+				"minecraft:stored_enchantments": {
+					"minecraft:binding_curse": 1
+				}
+			},
+			"ignore": null
+		},
+		"infinity": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_paris"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:stored_enchantments": {
+					"minecraft:infinity": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.paris",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_paris"
+			},
+			"ignore": null
+		},
+		"looting_fortune": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_midas"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:fortune": 1,
+					"minecraft:looting": 3
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.midas",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_midas"
+			},
+			"ignore": null
+		},
+		"lunge_breach": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_ares"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:lunge": 2,
+					"minecraft:breach": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.ares",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_ares"
+			},
+			"ignore": null
+		},
+		"lure_luck_of_the_sea": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_glaucus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:luck_of_the_sea": 3,
+					"minecraft:lure": 3,
+					"minecraft:loyalty": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.glaucus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_glaucus"
+			},
+			"ignore": null
+		},
+		"mending": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_lu_ban"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:mending": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:rarity": "epic",
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.lu_ban",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_lu_ban"
+			},
+			"ignore": null
+		},
+		"piercing_impaling": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_apollo"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:impaling": 3,
+					"minecraft:piercing": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.apollo",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_apollo"
+			},
+			"ignore": null
+		},
+		"power_multishot": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_artemis"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:power": 2,
+					"minecraft:multishot": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.artemis",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_artemis"
+			},
+			"ignore": null
+		},
+		"reach": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_will"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"matcha:reach": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.will",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_will"
+			},
+			"ignore": null
+		},
+		"silk_touch": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_eros"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:silk_touch": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.eros",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_eros"
+			},
+			"ignore": null
+		},
+		"swift_sneak_soul_speed": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_cronus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:swift_sneak": 2,
+					"minecraft:soul_speed": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.cronus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_cronus"
+			},
+			"ignore": null
+		},
+		"traversal": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_clement"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"matcha:traversal": 3
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.clement",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_clement"
+			},
+			"ignore": null
+		},
+		"unbreaking": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_prometheus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"minecraft:unbreaking": 2
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.prometheus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_prometheus"
+			},
+			"ignore": null
+		},
+		"warding": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_warding"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"matcha:warding_2": 1,
+					"minecraft:smite": 2
+				},
+				"minecraft:rarity": "rare",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.man",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_warding"
+			},
+			"ignore": null
+		},
+		"wind_burst_anemos": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_aeolus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"matcha:anemos": 1,
+					"minecraft:wind_burst": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.aeolus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_aeolus"
+			},
+			"ignore": null
+		},
+		"zephyr": {
+			"version": 1,
+			"folder": [
+				[
+					"blessing"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.blessing"
+				}
+			],
+			"models": [
+				"matcha:blessing_hyacinthus"
+			],
+			"id": "minecraft:enchanted_book",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:stored_enchantments": {
+					"matcha:zephyr": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.blessing"
+				},
+				"minecraft:lore": [
+					{
+						"translate": "item.kleispack.blessing.hyacinthus",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:item_model": "matcha:blessing_hyacinthus"
 			},
 			"ignore": null
 		}

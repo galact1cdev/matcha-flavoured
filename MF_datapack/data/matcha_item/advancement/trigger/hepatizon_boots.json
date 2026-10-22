@@ -16,23 +16,7 @@
 											"minecraft:slots": {
 												"armor.feet": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.hepatizon_boots",
-															"color": "#ac7b5c"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": "matcha:hepatizon_boots"
+														"minecraft:item_model": "matcha:hepatizon_boots"
 													}
 												}
 											}

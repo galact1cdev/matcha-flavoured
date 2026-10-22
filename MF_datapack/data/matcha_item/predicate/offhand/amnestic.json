@@ -11,7 +11,20 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": "matcha:amnestic_wrapped"
+									"minecraft:item_model": "matcha:amnestic_wrapped"
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_model": "minecraft:amnestic_wrapped"
 								}
 							}
 						}

@@ -60,6 +60,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     feet = re.compile("boots")
     diamond = re.compile("^(minecraft:diamond)_(.+)")
     baked_apple = re.compile("minecraft:fermented_spider_eye")
+    ofuda = re.compile("item.kleispack.ofuda")
     item = DB["files"].get(name)
     if override == "True" and cache[name]["overriden"] == False or name not in DB["files"]:
         if override == "True":
@@ -95,18 +96,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
                     type_ = "baked_apple"
             elif components.get("minecraft:provides_trim_material") != None:
                 type_ = "trim_colour"
-            elif components.get("minecraft:stored_enchantments") != None:
-                if head.search(id_):
-                    type_ = "enchanted_helmet"
-                elif chest.search(id_):
-                    type_ = "enchanted_chestplate"
-                elif legs.search(id_):
-                    type_ = "enchanted_leggings"
-                elif feet.search(id_):
-                    type_ = "enchanted_boots"
-                else:
-                    type_ = "enchanted"
-            elif components.get("minecraft:enchantments") != None:
+            elif components.get("minecraft:stored_enchantments") != None or components.get("minecraft:enchantments") != None:
                 if head.search(id_):
                     type_ = "enchanted_helmet"
                 elif chest.search(id_):
@@ -785,7 +775,7 @@ def creationHelper(obj, item):
     temp_models_predicates = []
     models_predicates = []
     for i in range(len(models)):
-        temp_models_predicates.append(item_predicate({"components": {"minecraft:item_name": models[i]}}, slots).createDict)
+        temp_models_predicates.append(item_predicate({"components": {"minecraft:item_model": models[i]}}, slots).createDict)
         for i2 in range(len(temp_models_predicates[i])):
             models_predicates.append(temp_models_predicates[i][i2])
     version_predicates = item_predicate({"predicates": {"minecraft:custom_data": {"version": version}}}, slots).createDict
@@ -803,7 +793,7 @@ def creationHelper(obj, item):
             for i in range(len(relevant_name_predicates)):
                 working_diamond_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
         for relevant_model in relevant_models:
-            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots).createDict
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_model": relevant_model}},slots).createDict
             for i in range(len(relevant_model_predicates)):
                 working_diamond_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
     elif type_ == "baked_apple":
@@ -822,7 +812,7 @@ def creationHelper(obj, item):
             for i in range(len(relevant_name_predicates)):
                 baked_apple_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
         for relevant_model in relevant_models:
-            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots)
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_model": relevant_model}},slots)
             for i in range(len(relevant_model_predicates)):
                 baked_apple_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
     else:
@@ -840,8 +830,11 @@ def creationHelper(obj, item):
         else:
             pass
         if usemodels:
-            mainhand_predicate["terms"][0]["terms"].append(models_predicates[0])
-            offhand_predicate["terms"][0]["terms"].append(models_predicates[1])
+            for i in range(len(models_predicates)):
+                if (i % 2) == 0:
+                    mainhand_predicate["terms"][0]["terms"].append(models_predicates[i])
+                else:
+                    offhand_predicate["terms"][0]["terms"].append(models_predicates[i])
         else:
             pass
         if useid:

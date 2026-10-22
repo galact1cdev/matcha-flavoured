@@ -16,23 +16,7 @@
 											"minecraft:slots": {
 												"armor.chest": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.hepatizon_chestplate",
-															"color": "#ac7b5c"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.chest": {
-													"components": {
-														"minecraft:item_name": "matcha:hepatizon_chestplate"
+														"minecraft:item_model": "matcha:hepatizon_chestplate"
 													}
 												}
 											}

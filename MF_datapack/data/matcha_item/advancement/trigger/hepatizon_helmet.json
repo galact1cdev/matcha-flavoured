@@ -16,23 +16,7 @@
 											"minecraft:slots": {
 												"armor.head": {
 													"components": {
-														"minecraft:item_name": {
-															"translate": "item.kleispack.hepatizon_helmet",
-															"color": "#ac7b5c"
-														}
-													}
-												}
-											}
-										}
-									},
-									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.head": {
-													"components": {
-														"minecraft:item_name": "matcha:hepatizon_helmet"
+														"minecraft:item_model": "matcha:hepatizon_helmet"
 													}
 												}
 											}
